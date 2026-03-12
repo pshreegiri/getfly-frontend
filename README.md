@@ -1,16 +1,66 @@
-# React + Vite
+# Construction Field Management App (Frontend Task)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a frontend implementation of a Construction Field Management application built using React.js. It includes core screens such as Login, Project List, and Daily Progress Report (DPR) Form.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React.js (Vite)
+- React Router v6
+- JavaScript
+- CSS
+- Axios 
 
-## React Compiler
+## Features Implemented
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Login Screen
+- Email and password login
+- Mock authentication
+- Valid credentials:
+  - Email: test@test.com
+  - Password: 123456
+- Error message for invalid login
+- Redirects to Project List on success
 
-## Expanding the ESLint configuration
+### Project List Screen
+- Displays static list of construction projects
+- Shows project name, status, start date, and location
+- Status badges with color indicators
+- Button to open DPR form for each project
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### DPR Form Screen
+- Project selection dropdown
+- Date picker
+- Weather dropdown (Sunny / Cloudy / Rainy)
+- Work description textarea
+- Worker count input
+- Image upload (max 3 images)
+- Image preview thumbnails
+- Form validation
+- Success message after submission
+- Navigation back to Project List
+
+### Responsive Design
+- Mobile-first layout
+- Works on mobile, tablet, and desktop
+- No horizontal scrolling
+
+## Project Structure
+src
+├ components
+│ ├ Login.jsx
+│ ├ Projects.jsx
+│ ├ DPRForm.jsx
+│
+├ data
+│ └ projects.js
+│
+├ styles
+│ ├ login.css
+│ ├ project.css
+│ └ dpr.css
+
+
+## How to Run the Project
+
+1. Clone the repository
+https://github.com/pshreegiri/getfly-frontend.git
