@@ -62,5 +62,21 @@ src
 
 ## How to Run the Project
 
-1. Clone the repository
-https://github.com/pshreegiri/getfly-frontend.git
+1. Clone the repository: git clone https://github.com/pshreegiri/getfly-frontend.git
+
+2. Install dependencies: npm install
+
+3. Start the development server: npm run dev
+
+The application will run at: http://localhost:5173
+
+
+## Known Limitations
+
+- Authentication is mock-based (no backend)
+- Data is stored locally (static JSON)
+- Image uploads are not persisted
+
+## Author
+
+Frontend internship task submission.
