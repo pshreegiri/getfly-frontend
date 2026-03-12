@@ -5,6 +5,17 @@ import DPRForm from "./components/DPRForm";
 
 function App() {
   return (
+
+    <div>
+
+    {/* Background shapes */}
+
+      <div className="background-shapes">
+        <div className="shape shape1"></div>
+        <div className="shape shape2"></div>
+        <div className="shape shape3"></div>
+      </div>
+
     <BrowserRouter>
       <Routes>
 
@@ -14,6 +25,8 @@ function App() {
 
       </Routes>
     </BrowserRouter>
+
+    </div>
   );
 }
 
