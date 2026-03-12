@@ -2,6 +2,10 @@
 
 This project is a frontend implementation of a Construction Field Management application built using React.js. It includes core screens such as Login, Project List, and Daily Progress Report (DPR) Form.
 
+## Live Demo
+
+https://getfly-frontend.vercel.app/
+
 ## Tech Stack
 
 - React.js (Vite)
